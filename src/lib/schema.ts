@@ -21,13 +21,6 @@ export const loginSchema = z.object({
 export const signupSchema = loginSchema.extend({
   name,
 });
-export const requestResetPasswordSchema = z.object({
-  email,
-});
-export const resetPasswordSchema = z.object({
-  password,
-  confirmPassword: password,
-});
 export const generateInviteUserSchema = (currentEmail: string) => {
   return z.object({
     email: z
