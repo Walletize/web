@@ -21,7 +21,7 @@ Key features:
 - Docker installed and running
 - Walletize server running (see [Walletize/server](https://github.com/Walletize/server))
 
-## How to Use ⚡
+## How to Use 🚀
 
 There are two ways to use Walletize:
 
