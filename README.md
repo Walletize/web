@@ -54,7 +54,7 @@ Once you have the server running, you can proceed with setting up the web applic
 3. Build and run the Docker container:
    ```bash
    docker build -t walletize-web .
-   docker run -d -p 3101:3101 walletize-web
+   docker run -d -p 3101:3101 --name walletize-web walletize-web
    ```
 
 4. Access Walletize at `http://localhost:3101`
