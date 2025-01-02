@@ -39,7 +39,7 @@ Once you have the server running, you can proceed with setting up the web applic
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Walletize/web walletize-web
+   git clone https://github.com/Walletize/web.git walletize-web
    cd walletize-web
    ```
 
