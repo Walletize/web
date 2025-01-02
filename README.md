@@ -47,6 +47,8 @@ Once you have the server running, you can proceed with setting up the web applic
    ```bash
    NEXT_PUBLIC_WEB_URL="http://localhost:3101"
    NEXT_PUBLIC_API_URL="http://localhost:3100"
+   // You can disable the signup page by setting this to true
+   DISABLE_SIGNUP=false
    ```
 
 3. Build and run the Docker container:
