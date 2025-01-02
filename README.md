@@ -19,7 +19,7 @@ Key features:
 ## Requirements 🛠️
 
 - Docker installed and running
-- Walletize server running (see [walletize-server](https://github.com/Walletize/server))
+- Walletize server running (see [Walletize/server](https://github.com/Walletize/server))
 
 ## How to Use ⚡
 
@@ -33,7 +33,7 @@ Visit [www.walletize.app](https://www.walletize.app) to use the managed version.
 
 Before self-hosting Walletize, you'll need to set up the Walletize server first:
 
-Set up [walletize-server](https://github.com/Walletize/server) by following the instructions in its README
+Set up [Walletize/server](https://github.com/Walletize/server) by following the instructions in its README
 
 Once you have the server running, you can proceed with setting up the web application:
 
@@ -45,8 +45,8 @@ Once you have the server running, you can proceed with setting up the web applic
 
 2. Create a `.env` file in the root directory with the following variables, and adjust them accordingly (or copy `.env.example`):
    ```bash
-   NEXT_PUBLIC_WEB_URL="http://localhost:3101"
-   NEXT_PUBLIC_API_URL="http://localhost:3100"
+   NEXT_PUBLIC_WEB_URL="http://<YOUR_IP_ADDRESS>:3101"
+   NEXT_PUBLIC_API_URL="http://<YOUR_IP_ADDRESS>:3100"
    // You can disable the signup page by setting this to true
    DISABLE_SIGNUP=false
    ```
@@ -57,4 +57,4 @@ Once you have the server running, you can proceed with setting up the web applic
    docker run -d -p 3101:3101 --name walletize-web walletize-web
    ```
 
-4. Access Walletize at `http://localhost:3101`
+4. Access Walletize at `http://<YOUR_IP_ADDRESS>:3101`
