@@ -1,4 +1,4 @@
-![Walletize](/hero-dark.png)
+![Walletize](/hero-dark.avif)
 
 # Walletize
 
