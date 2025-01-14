@@ -1,4 +1,4 @@
-export const APP_VERSION = '1.0.0';
+export const APP_VERSION = '1.1.0';
 
 export const ASSET_ID = '590cf50e-09a5-414c-9444-a716b14d210f';
 export const LIABILITY_ID = '645349f8-6b34-420c-91ef-c058eb065f2d';
