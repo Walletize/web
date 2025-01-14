@@ -1,6 +1,12 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.  
+All notable changes to this project will be documented in this file.
+
+## [1.1.0] - 2025-01-14
+
+### Added
+
+- Progressive Web App (PWA) support for improved mobile experience.
 
 ## [1.0.0] - 2025-01-05
 
