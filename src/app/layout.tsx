@@ -9,6 +9,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Walletize: Simplify your money',
   description: 'The open-source personal finance app that&apos;s simple and modern.',
+  manifest: '/manifest.json',
 };
 
 export default async function RootLayout({
